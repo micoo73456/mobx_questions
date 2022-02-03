@@ -11,5 +11,6 @@ part 'simple_store.g.dart';
 class SimpleStore = _SimpleStore with _$SimpleStore;
 
 abstract class _SimpleStore with Store {
+  @observable
   int value = 0;
 }
